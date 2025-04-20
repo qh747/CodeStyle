@@ -50,4 +50,9 @@ SpaceBeforeAssignmentOperators: true
 ContinuationIndentWidth: 4
 CommentPragmas:  '^ IWYU pragma:'
 SpaceBeforeParens: ControlStatements
+
+# 指针符号靠左
 PointerAlignment: Left
+
+# 头文件顺序不调整
+SortIncludes: false
