@@ -1,11 +1,11 @@
 Language: Cpp
-BasedOnStyle:  LLVM
+BasedOnStyle: LLVM
 AccessModifierOffset: -4
 ConstructorInitializerIndentWidth: 4
 AlignEscapedNewlinesLeft: false
 AlignTrailingComments: true
 AllowAllParametersOfDeclarationOnNextLine: true
-AllowShortIfStatementsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: true
 AllowShortLoopsOnASingleLine: false
 AllowShortFunctionsOnASingleLine: false
 AlwaysBreakTemplateDeclarations: false
@@ -36,7 +36,10 @@ Cpp11BracedListStyle: true
 Standard: Cpp11
 TabWidth: 8
 UseTab: Never
-BreakBeforeBraces: Attach
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterControlStatement: MultiLine
+  BeforeElse: true
 IndentFunctionDeclarationAfterType: true
 SpacesInParentheses: false
 SpacesInAngles:  false
